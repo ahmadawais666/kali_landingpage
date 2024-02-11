@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.part1{
+    background: url("https://www.kali.org/images/home-banner.jpg");
+    min-height: 100vh;
+}
+.part1 .inner{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #162f58cf;
+    backdrop-filter: blur(1px);
+}
+.inner .nav{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding: 20px 30px;
+}
+.nav li{
+    list-style: none;
+}
+.nav a{
+    padding: 20px 20px;
+    text-decoration: none;
+    color: #fff;
+}
+.part1-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.part1-main img{
+    width: 450px;
+    height: 430px;
+}
+.text-0{
+    width: 38vw;
+    line-height: 7vh;
+}
+.part1-main h1{
+    color: #fff;
+    font-weight: 200;
+}
+.part1-main p{
+    color: #fff;
+    font-size: 19px;
+}
+.btn{
+    width: 12rem;
+    height: 4rem;
+    background-color: transparent;
+    border: 2px solid #FEA44C;
+    color: #FEA44C;
+    border-radius: 10px;
+    margin-right: 1rem;
+    font-size: 13px;
+    font-weight: 900;
+}
+.btn:hover{
+    background-color: #FEA44C;
+    color: #fff;
+    box-shadow: 0px 0px 20px #FEA44C;
+}
+.btn1{
+    width: 12rem;
+    height: 4rem;
+    background-color: #367BF0;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+}
+.btn1:hover{
+    box-shadow: 0px 0px 20px #367BF0;
+}
+.part2{
+    min-height: 100vh;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+.part2 .text{
+    padding-top: 140px;
+    width: 100%;
+    height: 40vh;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: column;
+}
+.text h1{
+    color: #367BF0;
+    font-size: 50px;
+    /* font-weight: 700; */
+    font-family: Futura;
+}
+span:nth-child(1){
+    color: #905BD3;
+}
+.text h3{
+    font-size: 27px;
+    font-family: Nato;
+    font-weight: 300;
+}
+h3 span{
+    color: #000;
+}
+#one{
+    /* border: 2px solid red; */
+    padding-left: 50px;
+}
+.container{
+    margin-top: 5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.container .box{
+    width: 30%;
+}
+.box h3{
+    font-size: 23px;
+    font-family: Nato;
+    font-weight: 300;
+    margin-bottom: 14px;
+}
+.box p{
+    color: #636363;
+}
+.box span{
+    color: #3F81F0;
+}
+.part2-last{
+    /* border: 1px solid green; */
+    width: 100%;
+    min-height: 50vh;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #F9F9F9;
+}
+.part2-last #two{
+    height: 155vh;
+    width: 83vw;
+    object-fit: contain;
+    position: absolute;
+}
+.part2-last #three{
+    height:78vh;
+    width: 130vw;
+    object-fit: contain;
+    z-index: 9999;
+    /* border: 1px solid red; */
+    margin-bottom: 60px;
+    border-radius: 20px;
+    /* position: absolute; */
+}
+.part3{
+    min-height: 100vh;
+    width: 100%;
+}
+.part3 .text-1{
+    padding: 7rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.text-1 h2{
+    font-size: 30px;
+    font-family: Noto Sans;
+}
+.text-1 h3{
+    font-size: 22px;
+    font-family: themify;
+    font-weight: 650;
+}
+.text-1 p{
+    width: 40%;
+    font-size: 20px;
+    color: #636363;
+}
+.slider{
+    width: 100%;
+    border: 2px solid red;
+    display: flex;
+    gap: 30px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+.slider img{
+    width: 120px;
+    height: 130px;
+}
